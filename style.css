@@ -1,6 +1,29 @@
-.alter_name_and_description{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    padding: 3%;
 }
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 240px;
+}
+.list_descripition{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 220px;
+}
+.foto{
+    float: left;
+    height: 280px;
+    width: auto;
+    padding: 10px;
+    background-color: khaki;
+}
+.image-container{
+    height: 300px;
+}
+
 .alter_background_body{
     background-color: #FAF0CA;
 }
@@ -10,4 +33,7 @@
 .alter_size_habilities{
     font-size: 18px;
 }
+
+
+
         
