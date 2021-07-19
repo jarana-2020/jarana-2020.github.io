@@ -1,39 +1,55 @@
-body{
-    padding: 3%;
+:root {
+    --body-bg: #212529;
+    --body-color: #899095;
+    --link-color: #dee2e6;
+    --link-color-hover: #3cc368;
 }
-.name{
+
+body {
+    padding: 3%;
+    background-color: var(--body-bg);
+    color: var(--body-color);
+}
+
+.name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-.description{
+
+.description {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 240px;
 }
-.list_descripition{
+
+.list_descripition {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 220px;
 }
-.foto{
+
+.foto {
     float: left;
     height: 280px;
     width: auto;
     padding: 10px;
     background-color: khaki;
 }
-.image-container{
+
+.image-container {
     height: 300px;
 }
 
-.alter_background_body{
-    background-color: #FAF0CA;
-}
-.alter_style{
+.alter_style {
     font-style: oblique;
 }
-.alter_size_habilities{
+
+.alter_size_habilities {
     font-size: 18px;
 }
 
+a {
+    color: var(--link-color);
+}
 
-
-        
+a:hover {
+    color: var(--link-color-hover);
+}
