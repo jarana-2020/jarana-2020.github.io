@@ -1,41 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <title>Portifólio Web</title>
+    <title>Meu Portifólio Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="alter_background_body">
-    <div class="header-container">
-        <h1 class="name">Nome: Julio Cesar Arana</h1>
-        <div class="image-container">
-            <img class="foto" src="Imagens/Julio.jpg" alt="Foto pessoal" width="120px">
-            <h2 class="description">Descrição:</h2>
-            <ul class="list_descripition">
-                <li class="alter_style"><strong>Data de Nascimento: 13/05/1982</strong></li>
-                <li class="alter_style">Nascido em Londrina PR onde resido até hoje.</li>
-                <li>Estado Civil: Atualmente Noivo</li>
-                <li>Tenho uma filha de 15 anos</li>
-                <li>Apaixonado por tecnologia</li>
-                <li>Atividade de Lazer Preferida: Jogar Futebol com os Amigos</li>
-            </ul>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light corSecundaria">
+        <div class="container-fluid">
+            <a class="navbar-brand textosBrancos" href="#">Julio Cesar Arana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link textosBrancos" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textosBrancos" href="#sobreMim">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textosBrancos" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="py-5 text-center container corPrimaria">
+        <div class="row py-lg-5">
+            <img class="perfil-photo" src="Imagens/Julio.jpg" alt="Foto Pessoal">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light textosBrancos">Julio Cesar Arana</h1>
+                <p class="lead textosBrancos">Analista de Suporte em T.I com experiência de mais de 10 anos,
+                    atualmente estudante de Desenvovimento na Tribe.
+                </p>
+                <p>
+                    <a href="#" class="btn btn-dark my-2">Contato</a>
+                </p>
+                <a href="https://www.linkedin.com/in/julio-cesar-arana/"><i
+                        class="fab fa-linkedin textosBrancos"></i></a>
+                <a href="https://github.com/jarana-2020/jarana-2020.github.io"> <i
+                        class="fab fa-github icones textosBrancos"></i></a>
+            </div>
+        </div>
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <h2 id="projetos" class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="Imagens/Pixel-Art.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Projeto simples de uma paleta de cores, primeiro projeto criado como
+                                estudante na Trybe.</p>
+                            <ul>
+                                <li>Manipulação de DOM</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/tryber/sd-014-b-project-pixels-art/pull/43"> <button
+                                            type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="Imagens/To_do_List.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Segundo projeto criado como estudante da Trybe, criação de uma lista de
+                                tarefas.</p>
+                            <ul>
+                                <li>Manipulação de DOM.</li>
+                                <li>Criação de escutador de eventos.</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a
+                                        href="https://github.com/tryber/sd-014-b-project-todo-list/tree/Julio-Cesar-Arana-todo-list-project"><button
+                                            type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="Imagens/Trybe_Warts.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Projeto utilizando Framework Bootstrap.</p>
+                            <ul>
+                                <li>Manipulação de DOM.</li>
+                                <li>Criação de escutador de eventos.</li>
+                                <li>Iniciando aprendizado de responsividade</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""></a>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <br><br>
-    <h2>Habilidades:</h2>
-    <ul class="alter_size_habilities">
-        <li>Iniciando na carreira de Desenvolvimento Web na Trybe.</li>
-        <li>Suporte em T.I</li>
-        <li>Montagem e Manutenção de Micros</li>
-        <li>Git/GitHub</li>
-        <li>Pessoa calma mesmo em momentos de pressão.</li>
-        <li>Bom ouvinte.</li>
-        <li><strong>Procuro sempre levar meu carater e minha palavra muito a sério</strong></li>
-    </ul>
-    <p><a href="#foto">Link para Foto</a></p>
-    <p><a href="https://www.linkedin.com/in/julio-cesar-arana" target="_blank">Link para Linkedin</a></p>
-    <br><br>
-    <p><a href="#informações_pessoais">Navegar até Informações Pessoais</a></p>
-    <p><a href="#habilidades">Navegar até Habilidades</a></p>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <h2 id="sobreMim" class="jumbotron-heading titulosBrancos sobreMimH2">Sobre Mim</h2>
+            <p class="lead textosBrancos p-sobreMim">Olá meu nome é Julio, sempre atuei na área de suporte em T.I onde
+                tenho uma experiencia demais de 10 anos.;
+                Sou apaixonado por tecnologia, procuro ser muito aplicado naquilo que faço, me considero uma pessoa de
+                facil convivência,
+                procuro sempre colaborar e aprender com meus pares, atualmente estou tentando migrar para a aŕea de
+                desenvolvimento de software;</p>
+        </div>
+    </section>
+    <section class="corPrimaria">
+        <div>
+            <div class="container-fluid">
+                <h3 class="text-center titulosBrancos secaoDisponivelH3">Disponível para oportunidades</h3>
+                <a href="mailto:julioaranabr@yahoo.com.br">
+                    <h4 id="contato" class="text-center secaoDisponivelH4">julioaranabr@yahoo.com.br</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center corSecundaria textosBrancos textoFooter">Copyright 2021</footer>
+    <script src="https://kit.fontawesome.com/c46446fecf.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

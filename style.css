@@ -1,55 +1,59 @@
-:root {
-    --body-bg: #212529;
-    --body-color: #899095;
-    --link-color: #dee2e6;
-    --link-color-hover: #3cc368;
-}
-
-body {
-    padding: 3%;
-    background-color: var(--body-bg);
-    color: var(--body-color);
-}
-
-.name {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-.description {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 240px;
-}
-
-.list_descripition {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 220px;
-}
-
-.foto {
-    float: left;
-    height: 280px;
+.perfil-photo {
+    height: 100%;
     width: auto;
-    padding: 10px;
-    background-color: khaki;
+    max-width: 100%;
+    border-radius: 50%;
 }
 
-.image-container {
-    height: 300px;
+.corPrimaria {
+    background-color: #18bc9c;
 }
 
-.alter_style {
-    font-style: oblique;
+.corSecundaria {
+    background-color: #2c3e50;
 }
 
-.alter_size_habilities {
-    font-size: 18px;
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black !important;
 }
 
-a {
-    color: var(--link-color);
+.icones {
+    padding-left: 5px;
 }
 
-a:hover {
-    color: var(--link-color-hover);
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18bc9c;
+}
+
+.textosBrancos {
+    color: white !important;
+}
+
+.textoFooter {
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.secaoDisponivelH4, .p-sobreMim {
+    padding-bottom: 60px;
+}
+
+.secaoDisponivelH3, .sobreMimH2 {
+    padding-top: 60px;
 }
