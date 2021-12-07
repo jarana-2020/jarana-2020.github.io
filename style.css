@@ -57,3 +57,7 @@ p {
 .secaoDisponivelH3, .sobreMimH2 {
     padding-top: 60px;
 }
+
+.btn {
+    margin-right: 5px;
+}
