@@ -1,0 +1,28 @@
+body{
+  background-color: gray;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.form-quiz {
+  color: white;
+  padding: 20px;
+}
+
+.btn {
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.p-score {
+  background-color: #FFFFFF;
+  color: #010808;
+  font-size: 6vh;
+  margin-bottom: 0;
+  text-align: center;
+}
