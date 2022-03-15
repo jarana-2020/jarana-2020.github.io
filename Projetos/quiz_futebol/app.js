@@ -34,6 +34,7 @@ const calculateScore = (answers) => {
 
 const submitForm = event => {
   event.preventDefault();
+  score = 0;
   const answers = getCorrectAnswers();
   calculateScore(answers);
   scrollTo({ top: 0, left: 0, behavior: "smooth"})
